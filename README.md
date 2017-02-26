@@ -1,5 +1,5 @@
 # JSON snippets for Visual Studio Code
-A simple set of snippets that makes writing JSON easier.
+A simple set of snippets for writing JSON.
 
 | Snippets | Content |
 | -------: | --------|
