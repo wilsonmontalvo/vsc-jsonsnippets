@@ -1,5 +1,5 @@
 # JSON snippets for Visual Studio Code
-A simple set of snippets for writing JSON.
+Makes writing JSON fluent, with a simple set of snippets.
 
 | Snippets | Content |
 | -------: | --------|
@@ -10,4 +10,4 @@ A simple set of snippets for writing JSON.
 | paircln | Create JSON key/value pair ending with comma and jumping to next line. Not recommended for complex "value" |
 | valc | Create JSON value element ending withy comma |
 
-![JSON snippet example](images/json-snippet-demo.gif)
+![JSON snippet example](https://raw.githubusercontent.com/wilsonmontalvo/vsc-jsonsnippets/master/images/json-snippet-demo.gif)
