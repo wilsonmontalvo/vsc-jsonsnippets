@@ -6,8 +6,8 @@ A simple set of snippets that makes writing JSON easier.
 | obj | Create a JSON object |
 | arr | Create a JSON array |
 | pair | Create JSON key/value pair |
-| pairc | Create JSON key/value pair ending with comma.\nRecommended for nested objects |
-| paircln | Create JSON key/value pair ending with comma and jumping to next line.\nNot recommended for nested objects |
+| pairc | Create JSON key/value pair ending with comma |
+| paircln | Create JSON key/value pair ending with comma and jumping to next line. Not recommended for complex "value" |
 | valc | Create JSON value element ending withy comma |
 
 ![JSON snippet example](images/json-snippet-demo.gif)
