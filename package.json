@@ -1,0 +1,40 @@
+{
+  "name": "vsc-jsonsnippets",
+  "displayName": "Snippet for JSON",
+  "description": "Makes writing JSON fluent, with a simple set of snippets",
+  "icon": "images/json_logo.png",
+  "publisher": "wmontalvo",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "version": "0.1.4",
+  "engines": {
+    "vscode": "^1.9.1"
+  },
+  "categories": ["Snippets"],
+  "keywords": [
+    "json",
+    "snippet",
+    "create json",
+    "javascript",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonmontalvo/vsc-jsonsnippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}

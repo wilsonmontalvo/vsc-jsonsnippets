@@ -1,0 +1,68 @@
+{
+	"JSON.createObject": {
+		"prefix": "obj",
+		"body": [
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Create JSON object."
+	},
+	"JSON.createObjectComma": {
+		"prefix": "objc",
+		"body": [
+			"{",
+			"\t$0",
+			"},"
+		],
+		"description": "Create JSON object ending with comma."
+	},
+	"JSON.createArray": {
+		"prefix": "arr",
+		"body": [
+			"[",
+			"\t$0",
+			"]"
+		],
+		"description": "Create JSON array."
+	},
+	"JSON.createArrayComma": {
+		"prefix": "arrc",
+		"body": [
+			"[",
+			"\t$0",
+			"],"
+		],
+		"description": "Create JSON array ending with comma."
+	},
+	"JSON.createPair": {
+		"prefix": "pair",
+		"body": [
+			"'${1:<key>}': $0"
+		],
+		"description": "Create JSON key/value pair."
+	},
+	"JSON.createPairComma": {
+		"prefix": "pairc",
+		"body": [
+			"'${1:<key>}': $0,"
+		],
+		"description": "Create JSON key/value pair ending with comma.\nRecommended for nested objects."
+	},
+	"JSON.createPairCommaLn": {
+		"prefix": "paircln",
+		"body": [
+			"'${1:<key>}': ${2:<value>},",
+			"$0"
+		],
+		"description": "Create JSON key/value pair ending with comma and jumping to next line.\nNot recommended for nested objects."
+	},
+	"JSON.createValc": {
+		"prefix": "valc",
+		"body": [
+			"${1:<value>},",
+			"$0"
+		],
+		"description": "Create JSON value element ending withy comma."
+	}
+}

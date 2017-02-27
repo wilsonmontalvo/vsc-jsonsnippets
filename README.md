@@ -12,8 +12,9 @@ Or to define json-data in several programming languages (JavaScript, TypeScript,
 | Snippets | Content |
 | -------: | --------|
 | obj | Create a JSON object |
+| objc | Create a JSON object ending with comma |
 | arr | Create a JSON array |
+| arrc | Create a JSON array ending with comma |
 | pair | Create JSON key/value pair |
 | pairc | Create JSON key/value pair ending with comma |
 | paircln | Create JSON key/value pair ending with comma and jumping to next line. Not recommended for complex "value" |
-| valc | Create JSON value element ending withy comma |

@@ -8,6 +8,15 @@
 		],
 		"description": "Create JSON object."
 	},
+	"JSON.createObjectComma": {
+		"prefix": "objc",
+		"body": [
+			"{",
+			"\t$0",
+			"},"
+		],
+		"description": "Create JSON object ending with comma."
+	},
 	"JSON.createArray": {
 		"prefix": "arr",
 		"body": [
@@ -16,6 +25,15 @@
 			"]"
 		],
 		"description": "Create JSON array."
+	},
+	"JSON.createArrayComma": {
+		"prefix": "arrc",
+		"body": [
+			"[",
+			"\t$0",
+			"],"
+		],
+		"description": "Create JSON array ending with comma."
 	},
 	"JSON.createPair": {
 		"prefix": "pair",
@@ -38,13 +56,5 @@
 			"$0"
 		],
 		"description": "Create JSON key/value pair ending with comma and jumping to next line.\nNot recommended for nested objects."
-	},
-	"JSON.createValc": {
-		"prefix": "valc",
-		"body": [
-			"${1:<value>},",
-			"$0"
-		],
-		"description": "Create JSON value element ending withy comma."
 	}
 }
