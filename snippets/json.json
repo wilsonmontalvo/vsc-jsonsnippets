@@ -56,5 +56,22 @@
 			"$0"
 		],
 		"description": "Create JSON key/value pair ending with comma and jumping to next line.\nNot recommended for nested objects."
+	},
+	"JSON.createPairX02": {
+		"prefix": "pair*2",
+		"body": [
+			"\"${1:<key>}\": ${2:<value>},",
+			"\"${3:<key>}\": ${4:<value>}"
+		],
+		"description": "Create 02 key/value pairs."
+	},
+	"JSON.createPairX03": {
+		"prefix": "pair*3",
+		"body": [
+			"\"${1:<key>}\": ${2:<value>},",
+			"\"${3:<key>}\": ${4:<value>},",
+			"\"${5:<key>}\": ${6:<value>}"
+		],
+		"description": "Create 03 key/value pairs."
 	}
 }

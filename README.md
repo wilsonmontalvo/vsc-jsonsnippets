@@ -9,6 +9,8 @@ Or to define json-data in several programming languages (JavaScript, TypeScript,
 
 ![JSON snippet example](https://raw.githubusercontent.com/wilsonmontalvo/vsc-jsonsnippets/master/images/json-snippet-js.gif)
 
+## Snippets:
+
 | Snippets | Content |
 | -------: | --------|
 | obj | Create a JSON object |
@@ -18,3 +20,10 @@ Or to define json-data in several programming languages (JavaScript, TypeScript,
 | pair | Create JSON key/value pair |
 | pairc | Create JSON key/value pair ending with comma |
 | paircln | Create JSON key/value pair ending with comma and jumping to next line. Not recommended for complex "value" |
+
+## Productivity shortcuts:
+
+| Snippets | Content |
+| -------: | --------|
+| pair*2 | Create 02 pairs |
+| pair*3 | Create 03 pairs |
