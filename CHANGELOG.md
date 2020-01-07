@@ -1,3 +1,15 @@
+## [0.4.2 - Jan 07, 2020]
+
+- Update readme.
+
+## [0.4.1 - Jan 07, 2020]
+
+- Update readme.
+
+## [0.4.0 - Jan 07, 2020]
+
+- Add shortcuts for JSON files: Obj and Arr with 2 and 3 elements.
+
 ## [0.2.0 - Jan 06, 2020]
 
 - Add multiplier x2, x3.
