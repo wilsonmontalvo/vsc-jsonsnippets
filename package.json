@@ -17,7 +17,8 @@
     "snippet",
     "create json",
     "javascript",
-    "typescript"
+    "typescript",
+    "emmet"
   ],
   "repository": {
     "type": "git",
@@ -36,6 +37,14 @@
       {
         "language": "typescript",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "csharp",
+        "path": "./snippets/all-languages.json"
+      },
+      {
+        "language": "razor",
+        "path": "./snippets/all-languages.json"
       }
     ]
   }

@@ -1,3 +1,7 @@
+## [0.5.0 - Jan 08, 2020]
+
+- Add support for C# and Razor - Object initializer (beta).
+
 ## [0.4.2 - Jan 07, 2020]
 
 - Update readme.

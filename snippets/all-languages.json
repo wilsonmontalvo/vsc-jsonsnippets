@@ -1,0 +1,137 @@
+{
+	"JSON.createObject": {
+		"prefix": "obj",
+		"body": [
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Create JSON object."
+	},
+	"JSON.createObjectComma": {
+		"prefix": "objc",
+		"body": [
+			"{",
+			"\t$0",
+			"},"
+		],
+		"description": "Create JSON object ending with comma."
+	},
+	"JSON.createArray": {
+		"prefix": "arr",
+		"body": [
+			"[",
+			"\t$0",
+			"]"
+		],
+		"description": "Create JSON array."
+	},
+	"JSON.createArrayComma": {
+		"prefix": "arrc",
+		"body": [
+			"[",
+			"\t$0",
+			"],"
+		],
+		"description": "Create JSON array ending with comma."
+	},
+	"JSON.createPair": {
+		"prefix": "pair",
+		"body": [
+			"${1:<key>}: $0"
+		],
+		"description": "Create JSON key/value pair."
+	},
+	"JSON.createPairComma": {
+		"prefix": "pairc",
+		"body": [
+			"${1:<key>}: $0,"
+		],
+		"description": "Create JSON key/value pair ending with comma.\nRecommended for nested objects."
+	},
+	"JSON.createPairCommaLn": {
+		"prefix": "paircln",
+		"body": [
+			"${1:<key>}: ${2:<value>},",
+			"$0"
+		],
+		"description": "Create JSON key/value pair ending with comma and jumping to next line.\nNot recommended for nested objects."
+	},
+	"JSON.createPairX02": {
+		"prefix": "pair*2",
+		"body": [
+			"${1:<key>}: ${2:<value>},",
+			"${3:<key>}: ${4:<value>}"
+		],
+		"description": "Create 02 key/value pairs."
+	},
+	"JSON.createPairX03": {
+		"prefix": "pair*3",
+		"body": [
+			"${1:<key>}: ${2:<value>},",
+			"${3:<key>}: ${4:<value>},",
+			"${5:<key>}: ${6:<value>}"
+		],
+		"description": "Create 03 key/value pairs."
+	},
+	"JSON.createObjWithPairsX01": {
+		"prefix": "obj>1",
+		"body": [
+			"{",
+			"\t${1:<key>}: ${2:<value>}",
+			"}$0"
+		],
+		"description": "Create JSON object with 01 pair."
+	},
+	"JSON.createObjWithPairsX02": {
+		"prefix": "obj>2",
+		"body": [
+			"{",
+			"\t${1:<key>}: ${2:<value>},",
+			"\t${3:<key>}: ${4:<value>}",
+			"}$0"
+		],
+		"description": "Create JSON object with 02 pairs."
+	},
+	"JSON.createObjWithPairsX03": {
+		"prefix": "obj>3",
+		"body": [
+			"{",
+			"\t${1:<key>}: ${2:<value>},",
+			"\t${3:<key>}: ${4:<value>},",
+			"\t${5:<key>}: ${6:<value>}",
+			"}$0"
+		],
+		"description": "Create JSON object with 02 pairs."
+	},
+	"JSON.createArrWithItemsX01": {
+		"prefix": "arr>1",
+		"body": [
+			"[",
+			"\t{ ${1:<key>}: ${2:<value>} }",
+			"]$0"
+		],
+		"description": "Create JSON array with 01 item."
+	},
+	"JSON.createArrWithItemsX02": {
+		"prefix": "arr>2",
+		"body": [
+			"[",
+			"\t{ ${1:<key>}: ${2:<value>} },",
+			"\t{ ${3:<key>}: ${4:<value>} }",
+			"]$0"
+		],
+		"description": "Create JSON array with 02 items."
+	},
+	"JSON.createArrWithItemsX03": {
+		"prefix": "arr>3",
+		"body": [
+			"[",
+			"\t{ ${1:<key>}: ${2:<value>} },",
+			"\t{ ${3:<key>}: ${4:<value>} },",
+			"\t{ ${5:<key>}: ${6:<value>} }",
+			"]$0"
+		],
+		"description": "Create JSON array with 02 items."
+	}
+}
