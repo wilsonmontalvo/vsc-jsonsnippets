@@ -32,11 +32,11 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript.json"
+        "path": "./snippets/all-languages.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/javascript.json"
+        "path": "./snippets/all-languages.json"
       },
       {
         "language": "csharp",

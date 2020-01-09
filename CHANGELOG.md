@@ -1,3 +1,7 @@
+## [0.6.0 - Jan 09, 2020]
+
+- Extend support of Productivity Shortcuts to JavaScript, TypeScript
+
 ## [0.5.0 - Jan 08, 2020]
 
 - Add support for C# and Razor - Object initializer (beta).

@@ -1,11 +1,17 @@
 # JSON snippets for Visual Studio Code
 Makes writing JSON fluent, with a simple set of snippets.
 
-Can be used to create or edit JSON config files:
+## Applications:
+
+* Write JSON in configuration files.
+* Write JSON code embed in different programming languages (eg. jQuery ajax).
+* Write any key/value pair style code in different programming languages.
+
+Working with JSON config files:
 
 ![JSON snippet example](https://raw.githubusercontent.com/wilsonmontalvo/vsc-jsonsnippets/master/images/json-snippet-demo.gif)
 
-Or to define json-data in several programming languages (JavaScript, TypeScript, etc):
+Defining json-data in several programming languages (JavaScript, TypeScript, etc):
 
 ![JSON snippet example](https://raw.githubusercontent.com/wilsonmontalvo/vsc-jsonsnippets/master/images/json-snippet-js.gif)
 
@@ -22,7 +28,6 @@ Or to define json-data in several programming languages (JavaScript, TypeScript,
 | paircln | Create JSON key/value pair ending with comma and jumping to next line. Not recommended for complex "value" |
 
 ## Productivity shortcuts:
-Supported only on JSON files so far. They will be extended soon for JavaScript, TypeScript.
 
 | Snippets | Content |
 | -------: | --------|
@@ -34,6 +39,14 @@ Supported only on JSON files so far. They will be extended soon for JavaScript, 
 | arr>1 | Create JSON array with 01 item. |
 | arr>2 | Create JSON array with 02 items. |
 | arr>3 | Create JSON array with 03 items. |
+
+## Supported languages:
+
+* JSON
+* JavaScript
+* TypeScript
+* C# (beta)
+* Others to come...
 
 Visual Studio Marketplace: 
 https://marketplace.visualstudio.com/items?itemName=wmontalvo.vsc-jsonsnippets
