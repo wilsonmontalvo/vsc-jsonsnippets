@@ -5,7 +5,7 @@
   "icon": "images/json_logo.png",
   "publisher": "wmontalvo",
   "license": "SEE LICENSE IN LICENSE.md",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "engines": {
     "vscode": "^1.9.1"
   },
