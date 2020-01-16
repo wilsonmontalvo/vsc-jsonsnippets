@@ -45,8 +45,13 @@ Defining json-data in several programming languages (JavaScript, TypeScript, etc
 * JSON
 * JavaScript
 * TypeScript
-* C# (beta)
-* Others to come...
+* Other(s) to come...
+
+## Extended functionality:
+Other languages with key/value pair style code:
+
+* C# : Anonymous types, Object initializer and Implicitly-typed Arrays in Object Initializers.
+* Other(s) to come...
 
 Visual Studio Marketplace: 
 https://marketplace.visualstudio.com/items?itemName=wmontalvo.vsc-jsonsnippets

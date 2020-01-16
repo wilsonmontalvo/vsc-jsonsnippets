@@ -40,11 +40,11 @@
       },
       {
         "language": "csharp",
-        "path": "./snippets/all-languages.json"
+        "path": "./snippets/csharp.json"
       },
       {
         "language": "razor",
-        "path": "./snippets/all-languages.json"
+        "path": "./snippets/csharp.json"
       }
     ]
   }
